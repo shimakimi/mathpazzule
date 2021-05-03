@@ -1,0 +1,81 @@
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 20px);
+}
+
+.num_table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid 4px #555;
+    opacity: .9;
+}
+
+.num_table td {
+    background-color: rgba(255,255,255,.7);
+    border: solid 2px #555;
+    color: #555;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    width: 7vh;
+    height: 7vh;
+}
+
+.num_table .caption {
+    background-color: rgba(255,255,255,.9);
+    border-radius: 5px;
+    caption-side: bottom;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 2px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.num_table td:nth-of-type(3n+1) {
+    border-left: solid 4px #555;
+}
+
+.num_table tr:nth-child(3n+1) {
+    border-top: solid 4px #555;
+}
+
+.num_table .hole {
+    background-color: rgba(192,255,255,.7);
+    color: #00984C;
+}
+
+.num_table .hole #edit {
+    background-color: transparent;
+    color: #00984C;
+    font-family: 'Verdana';
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    width: 6vh;
+    height: 6vh;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+
